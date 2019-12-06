@@ -1,0 +1,9 @@
+#main{
+    position: relative;
+    min-width: 1200px;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #ccc;
+    margin-bottom: 80px
+}
