@@ -30,7 +30,8 @@ body {
 */
 /* 헤더 영역 */
 #header_wrap{
-  width: 100%;
+  width: 1200px;
+  margin: 0 auto;
   /* background: #ccc; */
 }
 #main_header {
