@@ -165,12 +165,18 @@
     text-align: center;
     width: 100%;
     background: #fff;
-    border-top: 5px solid #ffe600;
-    padding: 80px 0;
+    /* border-top: 5px solid #ffe600; */
+    /* padding: 80px 0; */
     color: #666;
+    margin-top: -5px;
   }
   #main_footer > h1 {
     margin: 5px;
+    background: #ffe600;
+    padding: 30px 0;
+  }
+  #main_footer>p:first-of-type{
+    padding-top: 40px;
   }
   #main_footer > p, #main_footer > address {
     font-style: normal;
@@ -185,4 +191,6 @@
     width: 220px;
     height: auto;
   }
-  
+  .copyright{
+    padding-bottom: 40px;
+  }

@@ -66,6 +66,9 @@
 .best_list li img{
     width: 200px;
 }
+.best_list li img:hover{
+    transform: scale(1.2);
+}
 
 .best_list li .text{
     font-size: 15px;
