@@ -2,6 +2,7 @@
 /* 타이틀이미지 */
 #menu_main div{
     background-image: url('../images/sub_page-title_1-2.jpg');
+    z-index: -99;
 }
 /* 컨텐츠 */
 #contents_wrap{

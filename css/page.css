@@ -19,6 +19,7 @@
     overflow: hidden;
     position: relative;
     background-position: bottom;
+    z-index: -99;
 }
 
 #menu_main  h1 {
