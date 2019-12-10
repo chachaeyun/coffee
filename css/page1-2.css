@@ -1,4 +1,8 @@
 /* page1-2 */
+
+#menu_main div{
+    background-image: url('../images/sub_page-title_1-2.jpg');
+}
 #title_img{
     height: 500px;
     width: 100%;
@@ -57,7 +61,7 @@
     float: right;
 }
 #contents_wrap>.left.top{
-    margin-bottom: 130px;
+    margin-bottom: 98px;
 }
 #contents_wrap>.right.top{
     margin-bottom: 135px;

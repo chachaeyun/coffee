@@ -7,3 +7,74 @@
     /* background: #ccc; */
     margin-bottom: 80px
 }
+
+/* 콘텐츠 영역 */
+
+#menu_main > div {
+    width: 100%;margin: 0 auto;text-align: center;
+    background-image: url(../images/sub_page-title.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    background-position: bottom;
+}
+
+#menu_main  h1 {
+    font-size: 2.8em;
+    color: #0e347e;
+    /* position: absolute; */
+    margin-top: 140px;
+}
+
+#menu_main .line1 {
+    display: block;
+    border-bottom: 4px solid #0e347e;
+    width: 40px;
+    margin: 40px auto;
+}
+
+#menu_main p {
+    font-size: 1.6em;
+    color: #444;
+    margin-bottom: 60px;
+    /* text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -3px 20px rgba(255,255,255,0.4); */
+    /* filter:progid; */
+}
+
+#main_lnb{
+    width: 100%;
+    /* background: #ccc; */
+    padding: 0 10px;
+    /* font-size: 0; */
+    position: relative;
+    bottom: 40px;
+    left: calc( 50% - 420px );
+    right: 0;
+    /* width: 1200px; */
+    margin: 0 auto;
+    text-align: center;
+    bottom: 100px;
+    overflow: hidden;
+}
+
+
+#main_lnb li{
+    display: inline-block;
+    width: 20%;
+    max-width: 170px;
+    padding: 10px 0;
+    font-size: 1.3em;
+    border: 2px solid #0e347e;
+    background: #fff;
+    margin-right: -2px;
+    float: left;
+    color: #909090;
+}
+
+#main_lnb li:hover{
+    background: #ffe600;
+    color: #000;
+    font-weight: bold;
+}
