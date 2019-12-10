@@ -131,21 +131,15 @@
     /* outline: 1px solid green; */
   }
   .ex{
-    top: 180px;
     position: absolute;
-    left: 0;
+    top: 180px;
     width: 100%;
-    height: 0;
-    overflow: hidden;
-    transition-duration: 0.4s;
-    /* transition: height .4s ease-in-out; */
-  }
-  .ex.show{
+    min-height: 0px;
     background: repeating-linear-gradient(45deg, #f6de02, #f6de02 1.5px, #ffe600 0, #ffe600 15px);
-    height: 145px;
-    width: 100%;
-    padding: 1em;
-    overflow: hidden;
+    transition: 0.4s;
+  }
+  .ex.show {
+    min-height: 145px;
   }
   
   #main_gnb .depth2{
