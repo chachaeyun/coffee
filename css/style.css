@@ -18,7 +18,7 @@ a{
 }
 
 body {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Montserrat','Noto Sans KR',sans-serif;
   font-size: 13px;
   color: #666;
 }
@@ -47,7 +47,22 @@ body {
   width: 220px;
   height: auto;
 }
-
+#toobar{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+#toobar li{
+  display: inline-block;
+  padding-left: 10px;
+}
+/* #toobar li:nth-child(1), #toobar li:nth-child(2){
+ margin-top: -10px;
+} */
+#toobar li img{
+  width: 28px; height: 28px;
+  margin-bottom: -8px;
+}
 /* 메인 메뉴 */
 #gnb_wrap{
   width: 100%;
@@ -218,7 +233,7 @@ body {
   font-size: 0.87em;
 }
 
-/* 창업안내 */
+/* 창업(경영)소개 */
 #foundation {
   /* outline: 1px solid red; */
   position: relative;
@@ -232,16 +247,153 @@ body {
   font-weight: bold;
   margin-bottom: 40px;
 }
-#foundation > article > img {
-  /* width: 100%; */
+#foundation .line2{
+    display: block;
+    border-bottom: 3px solid #0e347e;
+    width: 80px; height: 3px;
+    /* margin: 20px auto; */
+    margin-top: 30px;
+    margin-bottom: 50px;
+
 }
-#foundation > article > .line {
+
+#foundation > article{
+  color: #000;
+}
+#foundation > article > h1{
+  font-size: 35px;
+  text-align: left;
+  line-height: 45px;
+  color: #0e347e;
+}
+
+#foundation > article > .line{
   margin-top: 40px;
   margin-bottom: 50px;
 }
 
+#foundation > article > .left{
+  width: 560px;
+  float: left;
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+}
+#foundation > article > .right{
+  width: 560px;
+  float: right;
+  text-align: left;
+  font-size: 18px;
+  line-height: 35px;
+}
+.vision{
+  width: 1200px;
+  height: 400px;
+  overflow: hidden;
+}
+.vision li{
+  display: inline-block;
+  width: 397px;
+  height: 400px;
+  background-image: url("../images/iconbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.vision li img{
+  padding-top: 125px;
+}
+.vision  p{
+  padding-top: 5px;
+  font-size: 30px;
+  color: #0e347e;
+  font-weight: bold;
+}
+/* 창업 및 검색박스 */
+#fran_store{
+  clear: both;
+  height: 300px;
+}
+#fran_store .left_store{
+  float: left;
+  width: 598px;
+  height: 300px;
+  border: 3px solid #0e347e;
+}
+#fran_store .right_fran{
+  float: right;
+  width: 598px;
+  height: 300px;
+  border: 3px solid #0e347e;
+  background-image: url(../images/fran.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+#fran_store h1{
+  clear: both;
+  color: #0e347e;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: 800;
+}
+#fran_store h3{
+  font-size: 16px;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
+#fran_store .left_store .store_search{
+  background: #ccc;
+  width: 430px;
+  height: 55px;
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+}
+
+#fran_store .left_store .store_search .search_box{
+  width: 100%;
+  height: 55px;
+  border: 3px solid #0e347e;
+  font-size: 18px;
+}
+#fran_store .left_store .store_search .search{
+  position: absolute;
+  left: 390px;
+  bottom: 10px;
+  border: 0;
+  background: #fff;
+}
+#fran_store .left_store .store_search .search img{
+  width: 30px; height: 30px;
+}
+#fran_store > .right_fran > a{
+  position: absolute;
+  right: 500px;
+  bottom: 30px;
+  display: block;
+  width: 55px; height: 55px;
+  background-image: url(../images/store-ico1.jpg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* border: 1px solid gray;
+  border-radius: 50px; */
+}
+#fran_store > .right_fran > a:hover{
+  background-image: url(../images/store-ico2.jpg);
+  background-size: cover;
+}
+
+
+
+
 /* 창업문의 */
 #foundation .inform_list {
+  clear: both;
   overflow: hidden;
   /* outline: 1px solid red; */
 }
