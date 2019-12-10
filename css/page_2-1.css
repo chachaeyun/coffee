@@ -1,0 +1,168 @@
+
+/* 콘텐츠 영역 */
+
+#menu_main > div {
+    /* background: #ccc; */
+    position: relative;
+    
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+
+    background-image: url(../images/main_visaul1.jpg);
+    text-align: center;
+    overflow: hidden;
+    /* float: left; */
+}
+
+#menu_main  h1 {
+    font-size: 2.8em;
+    color: #0e347e;
+    /* position: absolute; */
+    margin-top: 140px;
+}
+
+#menu_main .line1 {
+    display: block;
+    border-bottom: 4px solid #0e347e;
+    width: 40px;
+    margin: 40px auto;
+}
+
+#menu_main p {
+    font-size: 1.6em;
+    color: #444;
+    margin-bottom: 60px;
+}
+
+#main_lnb{
+    width: 100%;
+    /* background: #ccc; */
+    padding: 0 10px;
+    /* font-size: 0; */
+    position: relative;
+    bottom: 40px;
+    left: calc( 50% - 420px );
+    right: 0;
+    /* width: 1200px; */
+    margin: 0 auto;
+    text-align: center;
+    bottom: 100px;
+    overflow: hidden;
+}
+
+
+#main_lnb li{
+    display: inline-block;
+    width: 20%;
+    max-width: 170px;
+    padding: 10px 0;
+    font-size: 1.3em;
+    border: 2px solid #0e347e;
+    background: #fff;
+    margin-right: -2px;
+    float: left;
+    color: #909090;
+}
+
+#main_lnb li:hover{
+    background: #ffe600;
+    color: #000;
+    font-weight: bold;
+}
+
+/* 비디오(메인 콘텐츠) */
+#video {
+    
+    /* background: #ccc; */
+    /* display: inline-block; */
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.vimeo{
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+#video > .title h2 {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.7em;
+}
+
+#video > .title .line3{
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+/* 추천 메뉴 */
+
+#best_menu{
+    /* background: #cccccc; */
+    width: 880px;
+    margin: 0 auto;
+    /* background: skyblue; */
+    text-align: center;
+}
+
+#best_menu h1 {
+    font-size: 2.3em;
+    color: #0e347e;
+    margin-bottom: 30px;
+}
+
+#best_menu .line2 {
+    display: block;
+    border-bottom: 4px solid #0e347e;
+    width: 40px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.best_list{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.best_list li{
+    text-align: center;
+    width: 220px;
+    float: left;
+}
+.best_list li img{
+    width: 200px;
+}
+
+.best_list li .text{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* SNS */
+
+#sns {
+    clear: both;
+    position: relative;
+    width: 80px;
+    margin: 0 auto;
+    /* background: pink; */
+    padding-top: 140px;
+    overflow: hidden;
+}
+
+#sns img {
+    width: 30px;
+    /* outline: 2px solids red; */
+}
+
+#sns li {
+    float: left;
+    padding-right: 10px;
+}
