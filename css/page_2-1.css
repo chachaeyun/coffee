@@ -10,22 +10,20 @@
 }
 .vimeo{
     width: 100%;
-    margin-bottom: 180px;
+    margin-bottom: 150px;
 }
 
-#video > .title h2 {
-    padding-left: 10px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 1.7em;
-}
 
-#video > .title .line3{
-    display: block;
-    border-bottom: 1px solid #ccc;
-    width: 1200px;
-    margin-top: 20px;
-    margin-bottom: 23px;
+#video > .title {
+    text-align: center;
+    /* background: #ccc; */
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+#video > .title img {
+   width: 320px;
+   height: 70px;
+   
 }
 
 /* 추천 메뉴 */
@@ -49,11 +47,11 @@
     border-bottom: 4px solid #0e347e;
     width: 40px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .best_list{
-    width: 1200px;
+    width: 880px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -66,33 +64,58 @@
 .best_list li img{
     width: 200px;
 }
-.best_list li img:hover{
+/* .best_list li img:hover{
     transform: scale(1.2);
-}
+} */
 
 .best_list li .text{
     font-size: 15px;
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 
-/* SNS */
+.best_list li .hover {
+    display: none;
+}
 
-#sns {
-    clear: both;
-    position: relative;
-    width: 80px;
+.best_list .hover h3 {
+    margin-top: 35px;
+    font-size: 1.8em;
+    padding-bottom: 3px;
+}
+
+.best_list .hover .eng {
+    color: #5e5e5e;
+    margin-bottom: 7px;
+    font-size: 11px;
+
+}
+
+.best_list .hover .substan {
+    line-height: 20px;
+    color: #444004;
+    /* text-align: left; */
+    font-size: 14px;
+}
+
+.line_in {
+    display: block;
+    border-bottom: 3px solid #0e347e;
+    width: 20px;
     margin: 0 auto;
-    /* background: pink; */
-    padding-top: 140px;
-    overflow: hidden;
+    margin-bottom: 13px;
 }
 
-#sns img {
-    width: 30px;
-    /* outline: 2px solids red; */
-}
-
-#sns li {
-    float: left;
-    padding-right: 10px;
+.best_list li:hover .hover{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    background: rgba(255, 230, 0, 0.7);
+    width: 220px;
+    height: 286px;
+    padding: 20px;
+    text-align: center;
+    color:#0e347e;
+    line-height: 180%;
+    z-index: 99;
 }
