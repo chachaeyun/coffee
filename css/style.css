@@ -45,16 +45,14 @@
   width: 100%;
   background: rgb(156, 156, 156);
   text-align: right;
-  padding: 5px 5px;
+  padding: 5px 0;
 }
-
-input, label {
-  float: left;
-  font-size: medium;
-}
-
-input {
-  margin: 5px;
+.popup > .close_box > .button{
+ color: black;
+ border: 0;
+ background: rgb(156, 156, 156);
+ width: 30px;
+ font-size: large;
 }
 
 /* 매인 배너 */
