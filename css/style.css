@@ -17,6 +17,46 @@
 }
 #main_banner .slider img { width: 100%;}
 
+/* 슬라이더 css */
+.slider {
+  position: relative;
+  padding-bottom: 29.94%;
+}
+.slider > img {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  /* 전환효과 */
+  transition-duration: 1s;
+}
+.slider > img.show {
+  opacity: 1;
+}
+.indicator {
+  position: absolute;
+  z-index: 99;
+  opacity: 1;
+  /* border: 1px solid red; */
+  bottom: 10px;
+  left: calc(50% - 14px);
+}
+.indicator > a.show {
+  color: red;
+}
+.indicator a {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  font-size: 1em;
+  margin: 4px;
+  border-radius: 20px;
+  text-indent: -9999px;
+}
+.indicator > a.show {
+  background: #ffe600;
+}
+
 /* 뉴스 섹션 */
 #news {
   width: 1200px;
