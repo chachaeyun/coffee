@@ -60,6 +60,7 @@
     border: 1px solid lightgray;
     height: 80px;
     padding: 22px 0;
+    position: relative;
 }
 #contents_box #search_wrap .search_box span{
     margin-left: 50px;
@@ -72,11 +73,13 @@ select{
 input[type=text]{
     width: 380px;
     height: 30px;
+    position: absolute;
+    top: 20px;
 }
 #contents_box #search_wrap .search_box .s_icon{
     position: absolute;
-    right: 13%;
-    bottom: 537px;
+    right: 86px;
+    bottom: 25px;
     background: #fff;
     border: 0;
 }
