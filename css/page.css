@@ -45,16 +45,13 @@
 }
 
 #main_lnb{
-    width: 100%;
+    /* width: 100%; */
     /* background: #ccc; */
-    padding: 0 10px;
-    /* font-size: 0; */
+    /* padding: 0 10px; */
     position: relative;
-    bottom: 40px;
-    left: calc( 50% - 420px );
-    right: 0;
-    /* width: 1200px; */
+     width: 850px; bottom: 40px;
     margin: 0 auto;
+    left: 0;
     text-align: center;
     bottom: 100px;
     overflow: hidden;
