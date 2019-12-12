@@ -10,22 +10,20 @@
 }
 .vimeo{
     width: 100%;
-    margin-bottom: 180px;
+    margin-bottom: 140px;
 }
 
-#video > .title h2 {
-    padding-left: 10px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 1.7em;
-}
 
-#video > .title .line3{
-    display: block;
-    border-bottom: 1px solid #ccc;
+#video > .title {
     width: 1200px;
-    margin-top: 20px;
-    margin-bottom: 23px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    text-align: center;
+
+}
+
+#video > .title img {
+    width: 320px;
 }
 
 /* 추천 메뉴 */
@@ -41,7 +39,7 @@
 #best_menu h1 {
     font-size: 2.3em;
     color: #0e347e;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 #best_menu .line2 {
@@ -66,33 +64,51 @@
 .best_list li img{
     width: 200px;
 }
-.best_list li img:hover{
-    transform: scale(1.2);
-}
 
 .best_list li .text{
     font-size: 15px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
-/* SNS */
 
-#sns {
-    clear: both;
-    position: relative;
-    width: 80px;
-    margin: 0 auto;
-    /* background: pink; */
-    padding-top: 140px;
-    overflow: hidden;
+
+/* 호버 */
+
+.best_list .hover{
+    display: none;
 }
 
-#sns img {
+.best_list li:hover .hover{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 220px;
+    height: 286px;
+    background: rgba(255, 230, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    color: #0e347e;
+    line-height: 19px;
+}
+
+.best_list .hover h2{
+    margin-top: 41px;
+    margin-bottom: 7px;
+}
+.best_list .hover .eg{
+    color: #5a5a5ade;
+    font-size: 12px;
+}
+.line_in {
+    display: block;
+    border-bottom: 3px solid #0e347e;
     width: 30px;
-    /* outline: 2px solids red; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
-#sns li {
-    float: left;
-    padding-right: 10px;
+.best_list .hover .info{
+    color: #404040;
 }
+
