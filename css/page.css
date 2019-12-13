@@ -18,7 +18,7 @@
     height: 500px;
     overflow: hidden;
     position: relative;
-    background-position: bottom;
+    background-position: center;
     z-index: -99;
 }
 
